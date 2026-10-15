@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>My Portfolio</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h1>Hello, I'm <span>Sivani</span></h1>
+        <h3>B.Tech Student | Aspiring Software Developer</h3>
+        <p>Welcome to my student portfolio website!</p>
+        <a href="#about" class="btn">Explore More</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a B.Tech student interested in programming,
+            technology, and software development. I enjoy learning
+            new skills and building projects to improve my knowledge.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="cards">
+            <div class="card">C Programming</div>
+            <div class="card">Java</div>
+            <div class="card">Python</div>
+            <div class="card">HTML & CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">Problem Solving</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Student Portfolio</h3>
+                <p>A personal website to showcase my profile and skills.</p>
+            </div>
+            <div class="card">
+                <h3>Student Login Page</h3>
+                <p>A simple login interface using HTML, CSS and JavaScript.</p>
+            </div>
+            <div class="card">
+                <h3>Smart Lighting System</h3>
+                <p>An automatic lighting project using an LDR sensor and Arduino.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>Bachelor of Technology (B.Tech)</h3>
+            <p>Branch: Computer Science and Information Technology</p>
+            <p>College: KL University</p>
+            <p>Status: Currently Pursuing</p>
+        </div>
+        <div class="card">
+            <h3>Intermediate</h3>
+            <p>College: Add your college name</p>
+            <p>Year: Add your year</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="response"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Sivani | Student Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
